@@ -3,10 +3,15 @@ import HelloWorld from "../components/HelloWorld.vue";
 import Home from "../views/Home.vue";
 
 const routes: Array<RouteRecordRaw> = [
+    // {
+    //     path: "/",
+    //     name: "Home",
+    //     component: Home,
+    // },
     {
-        path: "/",
-        name: "Home",
-        component: Home,
+      path: "/",
+      name: "Home",
+      component: Home,
     },
     {
         path: "/helloWorld",
